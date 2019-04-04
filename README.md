@@ -1,6 +1,7 @@
 # OmniAuth Withings OAuth2 Strategy
 
 [![Build Status](https://travis-ci.org/bartimaeus/omniauth-withings-oauth2.svg?branch=master)](https://travis-ci.org/bartimaeus/omniauth-withings-oauth2)
+[![Gem Version](https://badge.fury.io/rb/omniauth-withings-oauth2.svg)](https://badge.fury.io/rb/omniauth-withings-oauth2)
 
 A Withings OAuth2 strategy for OmniAuth.
 
