@@ -1,5 +1,7 @@
 # OmniAuth Withings OAuth2 Strategy
 
+[![Build Status](https://travis-ci.org/bartimaeus/omniauth-withings-oauth2.svg?branch=master)](https://travis-ci.org/bartimaeus/omniauth-withings-oauth2)
+
 A Withings OAuth2 strategy for OmniAuth.
 
 For more details, read the Withings documentation: https://developer.withings.com/oauth2
