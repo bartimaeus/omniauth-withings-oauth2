@@ -29,7 +29,7 @@ This is an example that you might put into a Rails initializer at `config/initia
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :withings, ENV['WITHINGS_CLIENT_ID'], ENV['WITHINGS_CLIENT_SECRET'], :scope => 'user.info,user.metrics,user.activity'
+  provider :withings, ENV['WITHINGS_CLIENT_ID'], ENV['WITHINGS_CLIENT_SECRET'], :scope => 'user.info,user.metrics'
 end
 ```
 
@@ -43,7 +43,7 @@ For more details, read the withings documentation: http://developer.withings.com
 You can configure the scope option:
 
 ```ruby
-provider :withings, ENV['WITHINGS_CLIENT_ID'], ENV['WITHINGS_CLIENT_SECRET'], :scope => 'user.info user.metrics users.activity'
+provider :withings, ENV['WITHINGS_CLIENT_ID'], ENV['WITHINGS_CLIENT_SECRET'], :scope => 'user.info,user.metrics,user.activity'
 ```
 
 ## Contributing
