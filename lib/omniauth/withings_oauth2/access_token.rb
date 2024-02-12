@@ -39,7 +39,7 @@ module OmniAuth
 
         # Having too many is sus, and may lead to bugs. Having none is fine (e.g. refresh flow doesn't need a token).
         def extra_tokens_warning(supported_keys, key)
-          return if OAuth2.config.silence_extra_tokens_warning
+          # return if OAuth2.config.silence_extra_tokens_warning
           return if supported_keys.length <= 1
 
           warn("OAuth2::AccessToken.from_hash: `hash` contained more than one 'token' key (#{supported_keys}); using #{key.inspect}.")
