@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.2'
+  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.8'
 
   gem.add_development_dependency 'bundler', '>= 1.16', '< 3.0'
   gem.add_development_dependency 'rake', '~> 12.3'

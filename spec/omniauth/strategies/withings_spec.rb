@@ -18,7 +18,7 @@ describe OmniAuth::Strategies::Withings do
     end
 
     it 'has correct `token_url`' do
-      expect(subject.client.options[:token_url]).to eq('https://account.withings.com/oauth2/token')
+      expect(subject.client.options[:token_url]).to eq('https://wbsapi.withings.net/v2/oauth2')
     end
   end
 
